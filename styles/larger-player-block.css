@@ -1,10 +1,11 @@
 #large-player-column {
   margin-right: 20px;
 }
-   
+  
 #playing-video-div {
   width: 90px;
   height: 520px;
+  padding-bottom: 0;
 }
 
 #playing-video {
@@ -17,12 +18,12 @@
   margin-left: 100px;
   font-size: 18px;
   font-weight: bold;
-  font-family: "YouTube Sans","Roboto",sans-serif;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
   color: black;
 }
 
 #video-share-and-like-stats {
-  margin-left: 100px; 
+  margin-left: 100px;
   justify-content: space-between;
   margin-top: 0;
   vertical-align: top;
@@ -30,7 +31,7 @@
 }
 
 #creator-div {
-  display: inline-block ;
+  display: inline-block;
   vertical-align: top;
   padding-bottom: 15px;
 }
@@ -142,7 +143,7 @@
   border: solid;
   border-width: 1px;
   border-color: aliceblue;
-  border-radius: 10px; 
+  border-radius: 10px;
   font-weight: bold;
   font-family: TimesNewRoman, monospace;
 }
@@ -152,13 +153,13 @@
   font-weight: bold;
   padding-left: 5px;
   font-size: 16px;
-} 
+}
 
 #decription-text {
   padding-left: 5px;
   padding-top: 2px;
   font-size: 14px;
-  font-family: "YouTube Sans","Roboto",sans-serif;;
+  font-family: "YouTube Sans", "Roboto", sans-serif;;
 }
 
 #subscribe-div {
@@ -171,9 +172,6 @@
   padding: 0;
 }
 
-#playing-video-div {
-  padding-bottom: 0px;
-}
 
 #comment-session {
   margin-left: 110px;
@@ -202,7 +200,6 @@
 
 #reply-button {
   width: 50px;
-  border-radius: 20px;
   border: 1px;
   border-radius: 15px;
   padding: 5px;
@@ -219,7 +216,14 @@
   margin-left: 110px;
 }
 
-#comment-count, 
+#comment-count {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto, monospace;
+} 
+
 #sorting {
   display: inline-block;
   margin-right: 30px;
@@ -247,18 +251,34 @@
   border-top-color: white;
 }
 
-#comment-like-icon, #comment-dislike-icon {
+#comment-like-icon {
   width: 20px;
   height: 20px;
   border-color: white;
 }
 
-#comment-like, #comment-dislike {
+#comment-dislike-icon {
+  width: 20px;
+  height: 20px;
+  border-color: white;
+}
+
+#comment-like {
   border: solid;
   border-color: white;
   background-color: white;
 }
 
-#comment-like,#comment-dislike {
+#comment-dislike {
+  border: solid;
+  border-color: white;
+  background-color: white;
+}
+
+#comment-like {
+  margin-right: 8px;
+}
+
+#comment-dislike {
   margin-right: 8px;
 }

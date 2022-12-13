@@ -34,7 +34,7 @@
 #youtube-icon {
   width: 80px;
   height: 50px;
-} 
+}
 
 #menu {
   width: 25px;
@@ -55,7 +55,7 @@
 }
 
 #search-bar::placeholder {
-  font-family: Roboto monospace;
+  font-family: Roboto, monospace;
   font-size: 16px;
   padding: 10px;
 }
@@ -95,12 +95,12 @@
   border-radius: 25px;
   width: 35px;
   border: 1px;
-  border-color:  rgb(220, 218, 218);
+  border-color: rgb(220, 218, 218);
 }
 
 #channel-profile {
   width: 30px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 #search {

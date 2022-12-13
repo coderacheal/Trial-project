@@ -1,4 +1,4 @@
-#small-player-column { 
+#small-player-column {
   margin-left: 20px;
 }
 
@@ -9,7 +9,6 @@
 
 #mini-player {
   vertical-align: top;
-    
 }
 
 #ad-display-div {
@@ -57,7 +56,7 @@
   margin-top: 0;
   justify-self: center;
   border-width: 1px;
-  border-color: rgb(45, 84, 240);;
+  border-color: rgb(45, 84, 240);
 }
 
 #tags-div {
@@ -103,7 +102,7 @@
   margin-top: 5px;
 }
 
-#creator-and-views{
+#creator-and-views {
   display: inline-block;
   vertical-align: top;
   width: 180px;
