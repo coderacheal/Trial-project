@@ -1,7 +1,7 @@
 #large-player-column {
   margin-right: 20px;
 }
-  
+ 
 #playing-video-div {
   width: 90px;
   height: 520px;
@@ -159,7 +159,7 @@
   padding-left: 5px;
   padding-top: 2px;
   font-size: 14px;
-  font-family: "YouTube Sans", "Roboto", sans-serif;;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
 }
 
 #subscribe-div {
@@ -171,7 +171,6 @@
   margin-top: 0;
   padding: 0;
 }
-
 
 #comment-session {
   margin-left: 110px;
@@ -222,7 +221,7 @@
   font-size: 18px;
   font-weight: bold;
   font-family: Roboto, monospace;
-} 
+}
 
 #sorting {
   display: inline-block;
@@ -267,18 +266,12 @@
   border: solid;
   border-color: white;
   background-color: white;
+  margin-right: 8px;
 }
 
 #comment-dislike {
   border: solid;
   border-color: white;
   background-color: white;
-}
-
-#comment-like {
-  margin-right: 8px;
-}
-
-#comment-dislike {
   margin-right: 8px;
 }
