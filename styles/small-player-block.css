@@ -1,145 +1,135 @@
 #small-player-column { 
-    /* background-color: aqua; */
-    margin-left: 20px;
-    /* width: 410px; */
-    /* display: inline-block; */
-    /* vertical-align: top; */
+  margin-left: 20px;
 }
 
 #video-thumbnail {
-    height: 100px;
-    border-radius: 10px;
+  height: 100px;
+  border-radius: 10px;
 }
-#mini-player{
-    vertical-align: top;
+
+#mini-player {
+  vertical-align: top;
     
 }
 
+#ad-display-div {
+  height: 150px;
+  width: 410px;
+  border: solid;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: rgb(225, 225, 225);
+}
 
+#ad-img {
+  width: 410px;
+  height: 70px;
+  object-fit: cover;
+}
 
+#add-link-info-div {
+  display: flex;
+  justify-content: space-around;
+}
 
-/* Ad-Display */
-#ad-display-div{
-    height: 150px;
-    width: 410px;
-    border: solid;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: rgb(225, 225, 225);
+#ad-profile {
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
 }
-#ad-img{
-    width: 410px;
-    height: 70px;
-    object-fit: cover;
+
+#ad-hyperlink {
+  margin-top: 10px;
 }
-#add-link-info-div{
-    display: flex;
-    justify-content: space-around;
-}
-#ad-profile{
-    width: 50px;
-    border-radius: 50%;
-    margin-top: 10px;
-}
-#ad-hyperlink{
-    margin-top: 10px;
-}
-#add-btn-link-div{
-    margin-top: 20px;
+
+#add-btn-link-div {
+  margin-top: 20px;
 }
 
 #add-btn-link {
-    padding: 10px;
-    width: 100px;
-    border-radius: 20px;
-    background-color: rgb(45, 84, 240);
-    color: white;
-    font-weight: bold;
-    margin-top: 0px;
-    justify-self: center;
-    border-width: 1px;
-    border-color: rgb(45, 84, 240);;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: rgb(45, 84, 240);
+  color: white;
+  font-weight: bold;
+  margin-top: 0;
+  justify-self: center;
+  border-width: 1px;
+  border-color: rgb(45, 84, 240);;
 }
 
-
-
-
-
-/* Tags */
-
-#tags-div{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    width: 410px;
-}
-#tag-1{
-    width: 70px;
-    padding: 10px;
-    border-radius: 8px;
-    border-width: 1px;
-    border: solid;
-    border-color: rgb(238, 238, 238);
-    font-size: 15px;
-    background-color: black;
-    color: white;
-}
-#tag{
-    padding: 10px;
-    border-radius: 8px;
-    border-width: 1px;
-    border: solid;
-    border-color: rgb(238, 238, 238);
-
+#tags-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 410px;
 }
 
-/* Video Player */
+#tag-1 {
+  width: 70px;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: solid;
+  border-color: rgb(238, 238, 238);
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+
+#tag {
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: solid;
+  border-color: rgb(238, 238, 238);
+}
+
 #thumbnail {
-    display: inline-block;
+  display: inline-block;
 }
 
 #video-title {
-    margin-top: 0px;
-    font-weight: bold;
-    font-size: 14px;
-    color: rgb(72, 71, 71);
-    font-family: Arial, Helvetica, sans-serif;
-
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(72, 71, 71);
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 #creator-title-and-stats {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #creator-and-views{
-    display: inline-block;
-    vertical-align: top;
-    width: 180px;
-
+  display: inline-block;
+  vertical-align: top;
+  width: 180px;
 }
 
 #creator-name {
-    font-weight: bold;
-    font-size: 13px;
-    color: rgb(106, 106, 106);
-    margin-bottom: 0px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(106, 106, 106);
+  margin-bottom: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif, monospace;
 }
 
 #channel-view-stats {
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(106, 106, 106);
-    margin-top: 2px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(106, 106, 106);
+  margin-top: 2px;
+  font-family: Roboto, Arial, Helvetica, sans-serif, monospace;
 }
 
-#dot-ellipsis{
-    display: inline-block;
-    vertical-align: top;
-    
+#dot-ellipsis {
+  display: inline-block;
+  vertical-align: top;
 }
+
 #ellipsis-img {
-    height: 13px;
+  height: 13px;
 }
